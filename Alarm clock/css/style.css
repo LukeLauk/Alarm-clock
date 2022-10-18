@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+/* background */
+body {
+  
+  text-align: center;
+}
+.clock-wrapper{
+    line-height: 2;
+}
+
+
+/* header */
+.clock-wrapper h2 {
+  font-family: 'PT Serif', serif;
+  font-size: 5em;
+  color: #CCCCCC ;
+  
+}
+
+/* buttons */
+.clock-wrapper button {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 10px 30px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: 0;
+  color: #fff;
+  transition: all ease 300ms;
+  margin: 10px 0;
+  font-size: 1.3em;
+ 
+}
+.clock-wrapper button:hover {
+  -webkit-transition: ease-in-out 1s;
+ background-color: #FFCC66;
+ color: black;
+  
+}
+
+
+.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin-top: -55px;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: default;
+  
+  
+}
+
+
+.hide {
+  display: none;
+}
+
+body{
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  background: hsl(0, 0%, 12%);
+}
+.intro{
+   background: hsl(0, 0%, 12%);
+   padding: 60px 30px;
+   color: #FFCC66;
+  
+   line-height: 1.5;
+   text-align: center;
+}
+.intro h1 {
+   font-size: 4em;
+   
+
+}
+
+select {
+  
+  padding: 8px 15px;
+}
+
+
